@@ -3,7 +3,7 @@ let database = require("../database");
 
 let remindersController = {
   // Show a list of reminders
-  // some change
+  // some changes
   list: (req, res) => {
     res.render('reminder/index', { reminders: database.cindy.reminders })
   },
