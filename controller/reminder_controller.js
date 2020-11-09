@@ -1,3 +1,4 @@
+// THIS IS A BUG
 let database = require("../database");
 
 let remindersController = {
@@ -42,6 +43,7 @@ let remindersController = {
   edit: (req, res) => {
     // ⭐️ your implementation here ⭐️
     // get reminder from id in req object
+    // add a comment
     // search the database to see if cindy has a reminder matching that id
     // send that result to res.render
 
@@ -49,7 +51,7 @@ let remindersController = {
 
   },
 
-  // Edit the Reminder
+  // Edit the Reminder this is a change
   update: (req, res) => {
     // ⭐️ your implementation here ⭐️
     // get reminder from id in req object params
@@ -57,6 +59,7 @@ let remindersController = {
     // update the values
     // redirect back to /reminders
     // res.redirect("/")
+    // create a bug
   },
 
   // Delete the Reminder
